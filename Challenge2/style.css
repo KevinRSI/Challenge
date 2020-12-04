@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 600px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+.vert {
+    background-color: green;
+}
+
+.bleu {
+    background-color: blue;
+}
+
+.violet {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.neuf {
+    background-color: orange;
+    height: 630px;
+}
+
+.square p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.8;
+}

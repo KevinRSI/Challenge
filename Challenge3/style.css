@@ -1,0 +1,74 @@
+.space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uno {
+    width: 8%;
+}
+
+.carre {
+    background-color: orange;
+    width: 100%;
+    height: 80px;
+    margin: 5px;
+}
+
+.dos {
+    width: 16%;
+}
+
+.c2 {
+    
+    height: 90px;
+}
+
+.gros {
+    background-color: seagreen;
+    width: 100%;
+}
+
+.petit{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.emerald {
+    width: 49%;
+    background-color: seagreen;
+    height: 90px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.column-tres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 600px;
+    justify-content: center;
+}
+
+.feu-g {
+    background-color: red;
+    width: 284px;
+    height: 50%;
+    margin: 2px;
+}
+
+.feu {
+    background-color: red;
+    width: 140px;
+    height: 50%;
+    margin: 2px;
+}
